@@ -36,7 +36,7 @@
                                  Fill="#FFB8F4D0" Margin="0,0,7,0"/>
                         <TextBlock x:Name="CompactText" Text="SILENTREAPER"
                                    Foreground="#FFECECF1" FontSize="9"
-                                   FontWeight="SemiBold" CharacterSpacing="110"
+                                   FontWeight="SemiBold"
                                    VerticalAlignment="Center"/>
                     </StackPanel>
                 </Grid>
@@ -49,8 +49,7 @@
                     <DockPanel Grid.Row="0" LastChildFill="False">
                         <StackPanel DockPanel.Dock="Left">
                             <TextBlock Text="DYNAMIC NOTCH" Foreground="#FFBFC2CC"
-                                       FontSize="9" FontWeight="SemiBold"
-                                       CharacterSpacing="150"/>
+                                       FontSize="9" FontWeight="SemiBold"/>
                             <TextBlock x:Name="Headline" Text="Your system at a glance"
                                        Foreground="White" FontSize="17"
                                        FontWeight="SemiBold" Margin="0,4,0,0"/>
@@ -74,7 +73,7 @@
                                 BorderBrush="#20FFFFFF" BorderThickness="1" Padding="12">
                             <StackPanel>
                                 <TextBlock Text="BATTERY" Foreground="#FFB9BBC5"
-                                           FontSize="9" CharacterSpacing="90"/>
+                                           FontSize="9"/>
                                 <TextBlock x:Name="BatteryValue" Text="--"
                                            Foreground="White" FontSize="22"
                                            FontWeight="SemiBold" Margin="0,5,0,0"/>
@@ -87,7 +86,7 @@
                                 BorderBrush="#20FFFFFF" BorderThickness="1" Padding="12">
                             <StackPanel>
                                 <TextBlock Text="PROCESSOR" Foreground="#FFB9BBC5"
-                                           FontSize="9" CharacterSpacing="55"/>
+                                           FontSize="9"/>
                                 <TextBlock x:Name="CpuValue" Text="--%"
                                            Foreground="White" FontSize="22"
                                            FontWeight="SemiBold" Margin="0,5,0,0"/>
@@ -99,7 +98,7 @@
                                 BorderBrush="#20FFFFFF" BorderThickness="1" Padding="12">
                             <StackPanel>
                                 <TextBlock Text="MEMORY" Foreground="#FFB9BBC5"
-                                           FontSize="9" CharacterSpacing="75"/>
+                                           FontSize="9"/>
                                 <TextBlock x:Name="RamValue" Text="--%"
                                            Foreground="White" FontSize="22"
                                            FontWeight="SemiBold" Margin="0,5,0,0"/>
